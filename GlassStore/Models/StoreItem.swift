@@ -65,8 +65,16 @@ enum StoreFormatting {
         return value.formatted(.number.notation(.compactName))
     }
 
-    /// Chart rank badge: 1 -> "1" (styled by the caller).
+        /// Chart rank badge: 1 -> "1" (styled by the caller).
     static func rank(_ index: Int) -> String {
         "\((index + 1))"
+    }
+
+    /// "2026-11-10T17:34:48Z" -> locale-abbreviated date; nil when unparseable.
+    static func prettyDate(_ iso: String) -> String? {
+        let parser = ISO8601DateFormatter()
+        parser.formatOptions = [.withInternetDateTime]
+        guard let date = parser.date(from: iso) ?? ISO8601DateFormatter().date(from: iso) else { return nil }
+        return date.formatted(date: .abbreviated, time: .omitted)
     }
 }
