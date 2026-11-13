@@ -205,7 +205,7 @@ final class StorefrontService: StorefrontFetching {
             description: result.description ?? "",
             releaseNotes: result.releaseNotes,
             version: result.version,
-            releaseDateText: result.currentVersionReleaseDate.flatMap(Self.prettyDate),
+            releaseDateText: result.currentVersionReleaseDate.flatMap(StoreFormatting.prettyDate),
             minimumOSVersion: result.minimumOsVersion,
             fileSizeBytes: result.fileSizeBytes.flatMap { Int64($0) },
             contentAdvisoryRating: result.contentAdvisoryRating,
