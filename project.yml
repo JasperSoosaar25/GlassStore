@@ -1,0 +1,54 @@
+name: GlassStore
+options:
+  bundleIdPrefix: com.glassstore
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    CODE_SIGN_STYLE: automatic
+targets:
+  GlassStore:
+    type: application
+    platform: iOS
+    sources:
+      - path: GlassStore
+        excludes:
+          - "Info.plist"
+    info:
+      path: GlassStore/Info.plist
+      properties:
+        CFBundleDisplayName: GlassStore
+        UILaunchScreen: {}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.glassstore.app
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: false
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  GlassStoreTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: GlassStoreTests
+    dependencies:
+      - target: GlassStore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.glassstore.tests
+schemes:
+  GlassStore:
+    build:
+      targets:
+        GlassStore: all
+        GlassStoreTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - GlassStoreTests

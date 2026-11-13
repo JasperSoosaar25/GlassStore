@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	objectVersion = 56;
+	classes = {
+	};
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86F7394490E230FA90CC97FA /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D572207F680186C04F8344 /* AppIconView.swift */; };
+		C35CC72289AAEB1F5F6FEE56 /* GetPillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9B1FE93FFA4B5B667C9AE /* GetPillButton.swift */; };
+		42996C8EDBBA4FDF3DFCFE49 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30082A5B8E896205424AD75D /* SectionHeader.swift */; };
+		20F9EC2B1C59E9575A572628 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74B7B99DE83C8B92EE8CBA /* StarRatingView.swift */; };
+		4E4FCF11329D54F129667BAF /* StateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D6A341CA027BD01FC86E5 /* StateViews.swift */; };
+		C95D51214B89895ED02878DB /* ChartModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398762E6CBACC80829FAF06 /* ChartModels.swift */; };
+		907A10631C0E5C316D5C9244 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797A60B7C3EBBB14181CF79 /* SearchModels.swift */; };
+		ED450AAB6D1211799B1A7577 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8D473B73E2CFED0D15D12 /* StoreItem.swift */; };
+		E6A64D601E45988BB3602E00 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336CD0B20F7EEAE8162F5A68 /* ImageLoader.swift */; };
+		1BF7B8DDB465C7149DDFFA6E /* RegionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91F720E325A7D88D0448FA4 /* RegionStore.swift */; };
+		B170B49BA3BEBDA6A18C6A24 /* StorefrontService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1893EFD8527B67A9EF85C8 /* StorefrontService.swift */; };
+		C48FD1C9400CFBB15CB72966 /* GlassStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798ACCC3FB47A516312EA3F2 /* GlassStoreApp.swift */; };
+		BE80C56FAA1A4964B7D8CCED /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C38BC709CC4638E6CC90DAF /* RootView.swift */; };
+		9F8A981FD22082B190AEFFE3 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BEB1A75BE27F1117A8B6A6 /* AboutView.swift */; };
+		34ECA2206DB096CFB3734961 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DA1B06B6AD13D3B87824CE /* ChartsView.swift */; };
+		F81E7929E1AB69B85133B349 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CE824F816011D097A15E50 /* DetailView.swift */; };
+		BC10A228C1F7B1803658C824 /* ScreenshotsStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7078106B26073151B64220E7 /* ScreenshotsStrip.swift */; };
+		564DD4BAA7B015B4F8832834 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC309070C01B9463BA68541F /* SearchView.swift */; };
+		8EB803E1AAF545F21C853179 /* HeroCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2502A0F87E8B23D97B69F744 /* HeroCardView.swift */; };
+		A01F4A8B2BF5D10B464B2911 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34979E0FCBC6442A5505462 /* TodayView.swift */; };
+		B1DDFD8B0AFD4F5D7D128128 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 6A84597E44692DE29FFCBF68 /* Assets.xcassets */; };
+		216EE15F09FC62E6292C86C4 /* ChartParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76078EF67C741465DCD9F7AE /* ChartParsingTests.swift */; };
+		59E4BFA4CAC47095B49CF147 /* FormattingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D993826AFEC17BA29A4480C /* FormattingTests.swift */; };
+		7B0498AD75CD97EEB1DBDAAC /* SearchParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB32D7C8A89E33ED759EB8 /* SearchParsingTests.swift */; };
+		058FBA17DE9D26CAD66CAD1E /* URLBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DC306EF6EF3BA17285F0D0 /* URLBuilderTests.swift */; };
+		F0CBE6A3007B7257817BB567 /* fixture_lookup.json in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC00C8126A2AF7DF69ED01 /* fixture_lookup.json */; };
+		6D70EA60FC5F1C4B5DF7F2FD /* fixture_newapps.json in Sources */ = {isa = PBXBuildFile; fileRef = 8E1ED8863C7CBBC10F48109F /* fixture_newapps.json */; };
+		C0AA90017C20BDE6A43C42D0 /* fixture_search.json in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA4964AA79BDF346A06939 /* fixture_search.json */; };
+		01687D4A4948933AFEB020DA /* fixture_topfree.json in Sources */ = {isa = PBXBuildFile; fileRef = 36B30C6442D4E38661EEB5E3 /* fixture_topfree.json */; };
+		204C5BA97242277361908E27 /* fixture_toppaid.json in Sources */ = {isa = PBXBuildFile; fileRef = 113FE6B0676527242C6D2553 /* fixture_toppaid.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		376388E7EE87C3C8E9BEBD9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D72781AF3BD0572AA93FE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B06D9646366DCFF2F7F34F;
+			remoteInfo = GlassStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4D572207F680186C04F8344 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		57D9B1FE93FFA4B5B667C9AE /* GetPillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPillButton.swift; sourceTree = "<group>"; };
+		30082A5B8E896205424AD75D /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		2D74B7B99DE83C8B92EE8CBA /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		C69D6A341CA027BD01FC86E5 /* StateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViews.swift; sourceTree = "<group>"; };
+		5398762E6CBACC80829FAF06 /* ChartModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModels.swift; sourceTree = "<group>"; };
+		4797A60B7C3EBBB14181CF79 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		2DC8D473B73E2CFED0D15D12 /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		336CD0B20F7EEAE8162F5A68 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		C91F720E325A7D88D0448FA4 /* RegionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionStore.swift; sourceTree = "<group>"; };
+		2B1893EFD8527B67A9EF85C8 /* StorefrontService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorefrontService.swift; sourceTree = "<group>"; };
+		798ACCC3FB47A516312EA3F2 /* GlassStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassStoreApp.swift; sourceTree = "<group>"; };
+		1C38BC709CC4638E6CC90DAF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		97BEB1A75BE27F1117A8B6A6 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		B1DA1B06B6AD13D3B87824CE /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		02CE824F816011D097A15E50 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7078106B26073151B64220E7 /* ScreenshotsStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsStrip.swift; sourceTree = "<group>"; };
+		FC309070C01B9463BA68541F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2502A0F87E8B23D97B69F744 /* HeroCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardView.swift; sourceTree = "<group>"; };
+		A34979E0FCBC6442A5505462 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		76078EF67C741465DCD9F7AE /* ChartParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartParsingTests.swift; sourceTree = "<group>"; };
+		3D993826AFEC17BA29A4480C /* FormattingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingTests.swift; sourceTree = "<group>"; };
+		0EBB32D7C8A89E33ED759EB8 /* SearchParsingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParsingTests.swift; sourceTree = "<group>"; };
+		60DC306EF6EF3BA17285F0D0 /* URLBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilderTests.swift; sourceTree = "<group>"; };
+		9FFC00C8126A2AF7DF69ED01 /* fixture_lookup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fixture_lookup.json; sourceTree = "<group>"; };
+		8E1ED8863C7CBBC10F48109F /* fixture_newapps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fixture_newapps.json; sourceTree = "<group>"; };
+		9CFA4964AA79BDF346A06939 /* fixture_search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fixture_search.json; sourceTree = "<group>"; };
+		36B30C6442D4E38661EEB5E3 /* fixture_topfree.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fixture_topfree.json; sourceTree = "<group>"; };
+		113FE6B0676527242C6D2553 /* fixture_toppaid.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fixture_toppaid.json; sourceTree = "<group>"; };
+		6A84597E44692DE29FFCBF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285545995122D079CFB27802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		566526554BF79A53C8A71A41 /* GlassStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62F431F1B3502A8672E8399 /* GlassStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA651F69199C70A1EBDC46B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F14343DE9DEE4F0BC822244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847C2A61BD6F3D16BFAE277D = {
+			isa = PBXGroup;
+			children = (
+				8F8275ABD3D691013B78EB82 /* GlassStore */,
+				7D78F9EEA244C2CF1860FAB1 /* GlassStoreTests */,
+				F4CD63B35163E1B168BB73ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CD63B35163E1B168BB73ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566526554BF79A53C8A71A41 /* GlassStore.app */,
+				A62F431F1B3502A8672E8399 /* GlassStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F8275ABD3D691013B78EB82 /* GlassStore */ = {
+			isa = PBXGroup;
+			children = (
+				C18BFBD84C9B937D3928059F /* Components */,
+				5072A2E1BBDFD8578BAAE8D5 /* Models */,
+				EE9CB4738AFE1521104F8EAB /* Services */,
+				90E13ED4917E53139DF70826 /* Support */,
+				B1579577777331057C3198B5 /* Views */,
+				285545995122D079CFB27802 /* Info.plist */,
+				6A84597E44692DE29FFCBF68 /* Assets.xcassets */,
+				285545995122D079CFB27802 /* Info.plist */,
+			);
+			path = GlassStore;
+			sourceTree = "<group>";
+		};
+		C18BFBD84C9B937D3928059F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B4D572207F680186C04F8344 /* AppIconView.swift */,
+				57D9B1FE93FFA4B5B667C9AE /* GetPillButton.swift */,
+				30082A5B8E896205424AD75D /* SectionHeader.swift */,
+				2D74B7B99DE83C8B92EE8CBA /* StarRatingView.swift */,
+				C69D6A341CA027BD01FC86E5 /* StateViews.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5072A2E1BBDFD8578BAAE8D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5398762E6CBACC80829FAF06 /* ChartModels.swift */,
+				4797A60B7C3EBBB14181CF79 /* SearchModels.swift */,
+				2DC8D473B73E2CFED0D15D12 /* StoreItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE9CB4738AFE1521104F8EAB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				336CD0B20F7EEAE8162F5A68 /* ImageLoader.swift */,
+				C91F720E325A7D88D0448FA4 /* RegionStore.swift */,
+				2B1893EFD8527B67A9EF85C8 /* StorefrontService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		90E13ED4917E53139DF70826 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				798ACCC3FB47A516312EA3F2 /* GlassStoreApp.swift */,
+				1C38BC709CC4638E6CC90DAF /* RootView.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B1579577777331057C3198B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D18748E44D33F5FDBC80389 /* About */,
+				BF9DB515B85F1C86D8A781C5 /* Charts */,
+				30A046C530E7966748A29F56 /* Detail */,
+				DAC092F767873A9700C72026 /* Search */,
+				D522DB83E4DA24C1C9483086 /* Today */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D18748E44D33F5FDBC80389 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				97BEB1A75BE27F1117A8B6A6 /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		BF9DB515B85F1C86D8A781C5 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				B1DA1B06B6AD13D3B87824CE /* ChartsView.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		30A046C530E7966748A29F56 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				02CE824F816011D097A15E50 /* DetailView.swift */,
+				7078106B26073151B64220E7 /* ScreenshotsStrip.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		DAC092F767873A9700C72026 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FC309070C01B9463BA68541F /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D522DB83E4DA24C1C9483086 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				2502A0F87E8B23D97B69F744 /* HeroCardView.swift */,
+				A34979E0FCBC6442A5505462 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		7D78F9EEA244C2CF1860FAB1 /* GlassStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				76078EF67C741465DCD9F7AE /* ChartParsingTests.swift */,
+				3D993826AFEC17BA29A4480C /* FormattingTests.swift */,
+				0EBB32D7C8A89E33ED759EB8 /* SearchParsingTests.swift */,
+				60DC306EF6EF3BA17285F0D0 /* URLBuilderTests.swift */,
+				D328461E4DC583A744E3F869 /* Fixtures */,
+			);
+			path = GlassStoreTests;
+			sourceTree = "<group>";
+		};
+		D328461E4DC583A744E3F869 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				9FFC00C8126A2AF7DF69ED01 /* fixture_lookup.json */,
+				8E1ED8863C7CBBC10F48109F /* fixture_newapps.json */,
+				9CFA4964AA79BDF346A06939 /* fixture_search.json */,
+				36B30C6442D4E38661EEB5E3 /* fixture_topfree.json */,
+				113FE6B0676527242C6D2553 /* fixture_toppaid.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59B06D9646366DCFF2F7F34F /* GlassStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8F0A3D6327A1A409563DD1 /* Build configuration list for PBXNativeTarget "GlassStore" */;
+			buildPhases = (
+				AEB1B1534E37024537EAC7C5 /* Sources */,
+				BA651F69199C70A1EBDC46B1 /* Frameworks */,
+				FA109D6103BBC438E1F2FCE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlassStore;
+			packageProductDependencies = (
+			);
+			productName = GlassStore;
+			productReference = 566526554BF79A53C8A71A41 /* GlassStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A0C11A517D3968BA5FE3A01 /* GlassStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3F2D816FDD5AE1B18D9C18 /* Build configuration list for PBXNativeTarget "GlassStoreTests" */;
+			buildPhases = (
+				20B87F34E342484046962B86 /* Sources */,
+				4F14343DE9DEE4F0BC822244 /* Frameworks */,
+				5B232879B32FCC524BE97E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096BBB2F0DFB2F19B661D561 /* PBXTargetDependency */,
+			);
+			name = GlassStoreTests;
+			packageProductDependencies = (
+			);
+			productName = GlassStoreTests;
+			productReference = A62F431F1B3502A8672E8399 /* GlassStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D72781AF3BD0572AA93FE82 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 67AFD4F595FCB94E45FA46AE /* Build configuration list for PBXProject "GlassStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847C2A61BD6F3D16BFAE277D;
+			productRefGroup = F4CD63B35163E1B168BB73ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59B06D9646366DCFF2F7F34F /* GlassStore */,
+				3A0C11A517D3968BA5FE3A01 /* GlassStoreTests */,
+			);
+			TargetAttributes = {
+				3A0C11A517D3968BA5FE3A01 = {
+					CreatedOnToolsVersion = 26.0;
+					TestTargetID = 59B06D9646366DCFF2F7F34F;
+				};
+			};
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA109D6103BBC438E1F2FCE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DDFD8B0AFD4F5D7D128128 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B232879B32FCC524BE97E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CBE6A3007B7257817BB567 /* fixture_lookup.json in Resources */,
+				6D70EA60FC5F1C4B5DF7F2FD /* fixture_newapps.json in Resources */,
+				C0AA90017C20BDE6A43C42D0 /* fixture_search.json in Resources */,
+				01687D4A4948933AFEB020DA /* fixture_topfree.json in Resources */,
+				204C5BA97242277361908E27 /* fixture_toppaid.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB1B1534E37024537EAC7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F7394490E230FA90CC97FA /* AppIconView.swift in Sources */,
+				C35CC72289AAEB1F5F6FEE56 /* GetPillButton.swift in Sources */,
+				42996C8EDBBA4FDF3DFCFE49 /* SectionHeader.swift in Sources */,
+				20F9EC2B1C59E9575A572628 /* StarRatingView.swift in Sources */,
+				4E4FCF11329D54F129667BAF /* StateViews.swift in Sources */,
+				C95D51214B89895ED02878DB /* ChartModels.swift in Sources */,
+				907A10631C0E5C316D5C9244 /* SearchModels.swift in Sources */,
+				ED450AAB6D1211799B1A7577 /* StoreItem.swift in Sources */,
+				E6A64D601E45988BB3602E00 /* ImageLoader.swift in Sources */,
+				1BF7B8DDB465C7149DDFFA6E /* RegionStore.swift in Sources */,
+				B170B49BA3BEBDA6A18C6A24 /* StorefrontService.swift in Sources */,
+				C48FD1C9400CFBB15CB72966 /* GlassStoreApp.swift in Sources */,
+				BE80C56FAA1A4964B7D8CCED /* RootView.swift in Sources */,
+				9F8A981FD22082B190AEFFE3 /* AboutView.swift in Sources */,
+				34ECA2206DB096CFB3734961 /* ChartsView.swift in Sources */,
+				F81E7929E1AB69B85133B349 /* DetailView.swift in Sources */,
+				BC10A228C1F7B1803658C824 /* ScreenshotsStrip.swift in Sources */,
+				564DD4BAA7B015B4F8832834 /* SearchView.swift in Sources */,
+				8EB803E1AAF545F21C853179 /* HeroCardView.swift in Sources */,
+				A01F4A8B2BF5D10B464B2911 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B87F34E342484046962B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216EE15F09FC62E6292C86C4 /* ChartParsingTests.swift in Sources */,
+				59E4BFA4CAC47095B49CF147 /* FormattingTests.swift in Sources */,
+				7B0498AD75CD97EEB1DBDAAC /* SearchParsingTests.swift in Sources */,
+				058FBA17DE9D26CAD66CAD1E /* URLBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096BBB2F0DFB2F19B661D561 /* GlassStoreTests -> GlassStore */ = {
+			isa = PBXTargetDependency;
+			target = 59B06D9646366DCFF2F7F34F /* GlassStore */;
+			targetProxy = 376388E7EE87C3C8E9BEBD9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		086E65EB6708FF9E78BE516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN__DUPLICATE_MATCHING_IS_DELETE = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3745EDBFB0C20EE6B216929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264AC4902CFF5F4C4107799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GlassStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glassstore.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+			};
+			name = Debug;
+		};
+		E011513CD3E853180AF21930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GlassStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glassstore.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90CDA5D98590343E01E928A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glassstore.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlassStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlassStore";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+			};
+			name = Debug;
+		};
+		5115380B32B081C6EA15030C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glassstore.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlassStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlassStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67AFD4F595FCB94E45FA46AE /* Build configuration list for PBXProject "GlassStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086E65EB6708FF9E78BE516E /* Debug */,
+				C3745EDBFB0C20EE6B216929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8F0A3D6327A1A409563DD1 /* Build configuration list for PBXNativeTarget "GlassStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264AC4902CFF5F4C4107799D /* Debug */,
+				E011513CD3E853180AF21930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3F2D816FDD5AE1B18D9C18 /* Build configuration list for PBXNativeTarget "GlassStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CDA5D98590343E01E928A3 /* Debug */,
+				5115380B32B081C6EA15030C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 7D72781AF3BD0572AA93FE82 /* Project object */;
+}

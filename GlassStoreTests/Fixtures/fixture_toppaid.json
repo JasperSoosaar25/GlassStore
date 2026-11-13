@@ -1,0 +1,234 @@
+{
+ "feed": {
+  "author": {
+   "name": {
+    "label": "iTunes Store"
+   },
+   "uri": {
+    "label": "http://www.apple.com/itunes/"
+   }
+  },
+  "entry": [
+   {
+    "im:name": {
+     "label": "Minecraft: Play with Friends!"
+    },
+    "im:image": [
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/a7/be/fba7bef5-248f-e255-da11-dd06a30e3828/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+      "attributes": {
+       "height": "53"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/a7/be/fba7bef5-248f-e255-da11-dd06a30e3828/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/75x75bb.png",
+      "attributes": {
+       "height": "75"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/a7/be/fba7bef5-248f-e255-da11-dd06a30e3828/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.png",
+      "attributes": {
+       "height": "100"
+      }
+     }
+    ],
+    "summary": {
+     "label": "Dive into an open world of building, crafting and survival. Gather resources, survive the night, and build whatever you can imagine one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! \n \nThe possibilities are endless. Embark on an epic adventure and play with friends, building from the ground up. Build and expand in Creative mode, where you can craft from unlimited resources. Survive the night, face intense battles, craft tools, and fend off danger in Survival mode. With seamless cross-platform and multiplayer gameplay on Minecraft: Bedrock Edition, you can adventure solo or with friends, and discover an infinite, randomly generated world filled with blocks to mine, biomes to explore, and mobs to befriend (or battle)!  \n \nIn Minecraft, the world is yours to shape! \n \nCREATE YOUR WORLD \n\u2022 Build anything from the ground up \n\u2022 Craft from special resources and tools to create brand new structures and landscapes \n\u2022 Explore an endless open world full of different biomes and creatures \n\u2022 Minecraft Marketplace \u2013 Get creator-made add-ons, thrilling worlds, and stylish cosmetics on Minecraft Marketplace \n\u2022 Connect with millions of players on community servers, or subscribe to Realms Plus to cross-play with up to 10 friends on your own private server \n\u2022 Slash commands \u2013 Tweak how the game plays: you can change the weather, summon mobs, change the time of day, and more \n\u2022 Add-ons \u2013 Customize your experience even further with add-ons! If you're more tech-inclined, you can modify your game to create new resource packs \n \nMULTIPLAYER ONLINE GAMES \n\u2022 Join free massive multiplayer servers and play with thousands of others \n\u2022 Multiplayer servers allow you to play with up to 4 players online with a free Xbox Live account \n\u2022 Build, battle and explore other realms. With Realms and Realms Plus, you can play with up to 10 friends cross-platform, anytime, anywhere on Realms, your own private server that we host for you \n\u2022 With Realms Plus, get instant access to over 150 Marketplace items with new additions each month. Share with friends on your own private Realms server*  \n\u2022 Connect and play with players across the world, wherever they are, and join in on MMO battles for survival in other worlds \n\u2022 Discover gigantic community-run worlds, compete in unique mini-games and socialize in lobbies full of fellow Minecrafters \n \nSUPPORT: https://www.minecraft.net/help \nLEARN MORE: https://www.minecraft.net/ \n\nHere are the links to our Privacy Policy and Terms and Conditions:\nPrivacy Policy: https://www.minecraft.net/privacy/gdpr\nTerms and Conditions: https://account.mojang.com/terms\n \nMINIMUM RECOMMENDED SPECIFICATION \n \nTo check the requirements for your device visit: https://help.minecraft.net/hc/en-us/articles/4409172223501 \n \n*Realms & Realms Plus: Try a free 30-day trial in-app. \n\nMinecraft may request the following optional permissions, which require your consent. You can continue to use Minecraft without granting these permissions; however, some features may be limited or unavailable.\nFor more information, please see below:\n\u2022 Local Network: To find other devices on the same Wi\u2011Fi network for multiplayer gameplay.\n\u2022 App Tracking: To deliver personalized ads and improve application experience"
+    },
+    "im:price": {
+     "label": "$6.99",
+     "attributes": {
+      "amount": "6.99",
+      "currency": "USD"
+     }
+    },
+    "im:contentType": {
+     "attributes": {
+      "term": "Application",
+      "label": "Application"
+     }
+    },
+    "rights": {
+     "label": "\u00a9 Mojang AB"
+    },
+    "title": {
+     "label": "Minecraft: Play with Friends! - Mojang"
+    },
+    "link": [
+     {
+      "attributes": {
+       "rel": "alternate",
+       "type": "text/html",
+       "href": "https://apps.apple.com/us/app/minecraft-play-with-friends/id479516143?uo=2"
+      }
+     },
+     {
+      "im:duration": {
+       "label": "0"
+      },
+      "attributes": {
+       "title": "Preview",
+       "rel": "enclosure",
+       "type": "image/jpeg",
+       "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/e0/bd/bee0bd58-7fd7-0203-2507-0b95bc2a3f51/pr_source.png/1024x1024bb.png",
+       "im:assetType": "preview"
+      }
+     }
+    ],
+    "id": {
+     "label": "https://apps.apple.com/us/app/minecraft-play-with-friends/id479516143?uo=2",
+     "attributes": {
+      "im:id": "479516143",
+      "im:bundleId": "com.mojang.minecraftpe"
+     }
+    },
+    "im:artist": {
+     "label": "Mojang",
+     "attributes": {
+      "href": "https://apps.apple.com/us/developer/mojang/id479516146?uo=2"
+     }
+    },
+    "category": {
+     "attributes": {
+      "im:id": "6014",
+      "term": "Games",
+      "scheme": "https://apps.apple.com/us/genre/ios-games/id6014?uo=2",
+      "label": "Games"
+     }
+    },
+    "im:releaseDate": {
+     "label": "2011-11-17T00:00:00-07:00",
+     "attributes": {
+      "label": "November 17, 2011"
+     }
+    }
+   },
+   {
+    "im:name": {
+     "label": "Shadowrocket"
+    },
+    "im:image": [
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/4c/02/4f4c0272-2fe6-777f-be0e-f4fe43c30ce4/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/53x53bb.png",
+      "attributes": {
+       "height": "53"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/4c/02/4f4c0272-2fe6-777f-be0e-f4fe43c30ce4/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/75x75bb.png",
+      "attributes": {
+       "height": "75"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/4c/02/4f4c0272-2fe6-777f-be0e-f4fe43c30ce4/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "attributes": {
+       "height": "100"
+      }
+     }
+    ],
+    "summary": {
+     "label": "Rule based proxy utility client for iPhone/iPad.\n\n- Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server.\n- Record and display HTTP, HTTPS, DNS requests from your iOS devices.\n- Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup.\n- Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections.\n- Import rule files from URL or iCloud Drive.\n- Block ads by domain, user agent rules.\n- Local DNS Mapping.\n- Work on cellular networks.\n- Decrypt HTTPS traffic.\n- Perform URL rewrite.\n- Fully IPv6 supports.\n- Script filter supports.\n- Multi-level forward proxy.\n- Support kcptun, cloak, gost, v2ray plugins.\n- Support DNS over HTTPS, DNS over TLS, DNS over QUIC."
+    },
+    "im:price": {
+     "label": "$2.99",
+     "attributes": {
+      "amount": "2.99",
+      "currency": "USD"
+     }
+    },
+    "im:contentType": {
+     "attributes": {
+      "term": "Application",
+      "label": "Application"
+     }
+    },
+    "rights": {
+     "label": "\u00a9 2026 Shadow Launch Technology Limited"
+    },
+    "title": {
+     "label": "Shadowrocket - Shadow Launch Technology Limited"
+    },
+    "link": [
+     {
+      "attributes": {
+       "rel": "alternate",
+       "type": "text/html",
+       "href": "https://apps.apple.com/us/app/shadowrocket/id932747118?uo=2"
+      }
+     },
+     {
+      "im:duration": {
+       "label": "0"
+      },
+      "attributes": {
+       "title": "Preview",
+       "rel": "enclosure",
+       "type": "image/jpeg",
+       "href": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/52/f9/c4/52f9c44f-c0c2-5dde-32f5-0e317cceff2d/pr_source.png/1024x1024bb.png",
+       "im:assetType": "preview"
+      }
+     }
+    ],
+    "id": {
+     "label": "https://apps.apple.com/us/app/shadowrocket/id932747118?uo=2",
+     "attributes": {
+      "im:id": "932747118",
+      "im:bundleId": "com.liguangming.Shadowrocket"
+     }
+    },
+    "im:artist": {
+     "label": "Shadow Launch Technology Limited",
+     "attributes": {
+      "href": "https://apps.apple.com/us/developer/shadow-launch-technology-limited/id687237009?uo=2"
+     }
+    },
+    "category": {
+     "attributes": {
+      "im:id": "6002",
+      "term": "Utilities",
+      "scheme": "https://apps.apple.com/us/genre/ios-utilities/id6002?uo=2",
+      "label": "Utilities"
+     }
+    },
+    "im:releaseDate": {
+     "label": "2015-04-13T19:09:18-07:00",
+     "attributes": {
+      "label": "April 13, 2015"
+     }
+    }
+   }
+  ],
+  "updated": {
+   "label": "2026-11-13T06:22:36-07:00"
+  },
+  "rights": {
+   "label": "Copyright 2008 Apple Inc."
+  },
+  "title": {
+   "label": "iTunes Store: Top Paid Apps"
+  },
+  "icon": {
+   "label": "http://itunes.apple.com/favicon.ico"
+  },
+  "link": [
+   {
+    "attributes": {
+     "rel": "alternate",
+     "type": "text/html",
+     "href": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?cc=us&id=1&popId=30"
+    }
+   },
+   {
+    "attributes": {
+     "rel": "self",
+     "href": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/json"
+    }
+   }
+  ],
+  "id": {
+   "label": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/json"
+  }
+ }
+}

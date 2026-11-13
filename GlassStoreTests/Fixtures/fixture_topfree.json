@@ -1,0 +1,329 @@
+{
+ "feed": {
+  "author": {
+   "name": {
+    "label": "iTunes Store"
+   },
+   "uri": {
+    "label": "http://www.apple.com/itunes/"
+   }
+  },
+  "entry": [
+   {
+    "im:name": {
+     "label": "TikTok Pro - Events"
+    },
+    "im:image": [
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/2d/12/062d12ba-6f42-bebb-94db-7860f8a333d2/AppIcon_TikTok-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+      "attributes": {
+       "height": "53"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/2d/12/062d12ba-6f42-bebb-94db-7860f8a333d2/AppIcon_TikTok-0-0-1x_U007emarketing-0-8-0-85-220.png/75x75bb.png",
+      "attributes": {
+       "height": "75"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/2d/12/062d12ba-6f42-bebb-94db-7860f8a333d2/AppIcon_TikTok-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "attributes": {
+       "height": "100"
+      }
+     }
+    ],
+    "summary": {
+     "label": "TikTok Pro - Events is a global discovery platform for videos where you can discover cool, funny, and educational short videos, as well as share important moments with your friends.\n\nEngage more with videos you love\nWith TikTok Pro - Events, you can continue discovering and exploring the videos you already know and love on TikTok while joining daily challenges built around major events and cultural moments.\n\nFind your community\nIn TikTok Pro, you'll find your community and unleash your inner fan, and have the opportunity to invite your friends to enjoy what happening as well. Create new content, share it, and have fun.\n\nImmersive Experience\nThe purest and fastest viewing experience. Focus on what you want to see.\n\nTerms of Service:\nhttps://www.tiktok.com/legal/page/us/terms-of-service/en\n\nPrivacy Policy:\nhttps://www.tiktok.com/legal/page/us/privacy-policy/en\n\nFeedback?\nContact us at Report a problem | TikTok or tweet us @tiktok_us"
+    },
+    "im:price": {
+     "label": "Get",
+     "attributes": {
+      "amount": "0.00",
+      "currency": "USD"
+     }
+    },
+    "im:contentType": {
+     "attributes": {
+      "term": "Application",
+      "label": "Application"
+     }
+    },
+    "rights": {
+     "label": "\u00a9 2024 TikTok Pte. Ltd."
+    },
+    "title": {
+     "label": "TikTok Pro - Events - TikTok Ltd."
+    },
+    "link": [
+     {
+      "attributes": {
+       "rel": "alternate",
+       "type": "text/html",
+       "href": "https://apps.apple.com/us/app/tiktok-pro-events/id6741796873?uo=2"
+      }
+     },
+     {
+      "im:duration": {
+       "label": "0"
+      },
+      "attributes": {
+       "title": "Preview",
+       "rel": "enclosure",
+       "type": "image/jpeg",
+       "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/ec/76/aaec76a9-e426-85f4-2a81-c6589be5b510/Frame_2087325581.png/1024x1024bb.png",
+       "im:assetType": "preview"
+      }
+     }
+    ],
+    "id": {
+     "label": "https://apps.apple.com/us/app/tiktok-pro-events/id6741796873?uo=2",
+     "attributes": {
+      "im:id": "6741796873",
+      "im:bundleId": "com.ss.iphone.ugc.tiktok.pro"
+     }
+    },
+    "im:artist": {
+     "label": "TikTok Ltd.",
+     "attributes": {
+      "href": "https://apps.apple.com/us/developer/tiktok-ltd/id1322881000?uo=2"
+     }
+    },
+    "category": {
+     "attributes": {
+      "im:id": "6016",
+      "term": "Entertainment",
+      "scheme": "https://apps.apple.com/us/genre/ios-entertainment/id6016?uo=2",
+      "label": "Entertainment"
+     }
+    },
+    "im:releaseDate": {
+     "label": "2026-06-03T00:00:00-07:00",
+     "attributes": {
+      "label": "June 3, 2026"
+     }
+    }
+   },
+   {
+    "im:name": {
+     "label": "Muse from Meta"
+    },
+    "im:image": [
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/d3/ad/1fd3adf4-c8d4-6563-16de-8144670ac382/HatchAppIconPublic-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/53x53bb.png",
+      "attributes": {
+       "height": "53"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/d3/ad/1fd3adf4-c8d4-6563-16de-8144670ac382/HatchAppIconPublic-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/75x75bb.png",
+      "attributes": {
+       "height": "75"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/d3/ad/1fd3adf4-c8d4-6563-16de-8144670ac382/HatchAppIconPublic-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+      "attributes": {
+       "height": "100"
+      }
+     }
+    ],
+    "summary": {
+     "label": "Muse is your personal AI agent that gets things done, always working on what matters to you. It manages email, books dinners, tracks budgets, and finds deals, with your approval.\n\nPERSONAL PRODUCTIVITY\nMuse takes the busywork off your plate. It manages scheduling conflicts, books reservations, sets reminders, and follows up with people, so birthdays, plans, and deadlines don't slip. Stay on top of your calendar, email, and daily tasks without carrying it all in your head.\n\nSHOPPING & DEALS\nMuse compares prices, tracks price drops, and alerts you the moment something you want goes on sale. AI-powered shopping that can actually buy on your behalf, with your OK.\n\nCONNECT YOUR APPS\nYou decide what Muse can access. Link your email, calendar, Instagram, Facebook, health and fitness data, and finances. Approve actions before they happen. Muse gets smarter with every connection.\n\nGROW YOUR SMALL BUSINESS\nGive Muse a goal, like finding new customers or growing sales, and it gets it done. Connect your Instagram Business Account, Facebook Pages, and Meta ad accounts in a few clicks, and Muse understands your business: what you sell, what your brand sounds like, and what customers keep asking about.\n\nSAVE MONEY\nMuse helps you understand where your money is going. It tracks expenses, audits subscriptions, flags charges you forgot about, cancels what you don't need, and helps you hit a savings goal, checking with you before it cancels or spends. Get financial insights without the spreadsheet.\n\nHEALTH & FITNESS\nMuse is your AI fitness coach. It builds a custom workout or meal plan from data you choose to share, tracks calories and nutrition, monitors sleep and wellness, and adjusts your training day by day. Whether it's running, eating better, or building a habit, Muse coaches you through it.\n\nSHARE A TASK, START TO FINISH\nHand Muse a whole job and it sees it through: the research, the comparisons, the back-and-forth, the bookings. Sell your car for more, negotiate a bill down, or plan and book a whole trip. A better result than you'd have managed alone.\n\nALWAYS WORKING FOR YOU\nMuse keeps things moving after you close the app. It monitors, follows up, and sends a notification when something needs your attention, so nothing falls through the cracks.\n\nIN YOUR CONTROL\nApprove actions before they happen. Muse keeps a full activity log, and lets you revoke any connector anytime. \n\nDESIGN THE MUSE APP, JUST FOR YOU\nDescribe what you want in chat, and Muse builds it for you: a tracker, a dashboard, a planner, a mood board, exactly the way you want it. Organize the Muse app around your routine: add spaces to your sidebar or main tabs and swap them out whenever you like. Name your Muse, shape how it communicates, and make it your own.\n\nVOICE MODE\nTalk to your custom avatar in real time, audio only or as a live animated video: it listens, reacts, and responds as you speak. Want a different voice? Just describe in chat, and that's how your Muse will sound.\n\nSMART, BUT STILL LEARNING\nMuse may be inaccurate or take unexpected actions, so check in to keep it on track and intervene as needed."
+    },
+    "im:price": {
+     "label": "Get",
+     "attributes": {
+      "amount": "0.00",
+      "currency": "USD"
+     }
+    },
+    "im:contentType": {
+     "attributes": {
+      "term": "Application",
+      "label": "Application"
+     }
+    },
+    "rights": {
+     "label": "\u00a9 2026 Meta"
+    },
+    "title": {
+     "label": "Muse from Meta - Meta Platforms, Inc."
+    },
+    "link": [
+     {
+      "attributes": {
+       "rel": "alternate",
+       "type": "text/html",
+       "href": "https://apps.apple.com/us/app/muse-from-meta/id6760173601?uo=2"
+      }
+     },
+     {
+      "im:duration": {
+       "label": "0"
+      },
+      "attributes": {
+       "title": "Preview",
+       "rel": "enclosure",
+       "type": "image/jpeg",
+       "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/7a/3a/847a3a58-7cd3-d0e2-ce97-9df5394b7842/1_3.png/1024x1024bb.png",
+       "im:assetType": "preview"
+      }
+     }
+    ],
+    "id": {
+     "label": "https://apps.apple.com/us/app/muse-from-meta/id6760173601?uo=2",
+     "attributes": {
+      "im:id": "6760173601",
+      "im:bundleId": "com.facebook.hatch"
+     }
+    },
+    "im:artist": {
+     "label": "Meta Platforms, Inc.",
+     "attributes": {
+      "href": "https://apps.apple.com/us/developer/meta-platforms-inc/id284882218?uo=2"
+     }
+    },
+    "category": {
+     "attributes": {
+      "im:id": "6007",
+      "term": "Productivity",
+      "scheme": "https://apps.apple.com/us/genre/ios-productivity/id6007?uo=2",
+      "label": "Productivity"
+     }
+    },
+    "im:releaseDate": {
+     "label": "2026-09-08T00:00:00-07:00",
+     "attributes": {
+      "label": "September 8, 2026"
+     }
+    }
+   },
+   {
+    "im:name": {
+     "label": "Vinted: Pre-loved marketplace"
+    },
+    "im:image": [
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/5f/34/1f5f3492-31d6-e27a-9a4c-5c2a59d644d6/VintedAppIcon-0-0-1x_U007epad-0-1-85-220.png/53x53bb.png",
+      "attributes": {
+       "height": "53"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/5f/34/1f5f3492-31d6-e27a-9a4c-5c2a59d644d6/VintedAppIcon-0-0-1x_U007epad-0-1-85-220.png/75x75bb.png",
+      "attributes": {
+       "height": "75"
+      }
+     },
+     {
+      "label": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/5f/34/1f5f3492-31d6-e27a-9a4c-5c2a59d644d6/VintedAppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "attributes": {
+       "height": "100"
+      }
+     }
+    ],
+    "summary": {
+     "label": "The idea is simple: you sell your pre-loved stuff to other members who\u2019ll love it again. They get the thrill of unboxing a great find, you get more space at home. It's look-good, do-good, feel-good, for everyone. \n\nSelling is easy and free\nSnap photos of your item, describe it, and set your price. You keep 100% of what you earn.  \n\u2022 Cash in on your pre-loved clothes and more. \n\u2022 Watch your earnings grow. Send your money straight to your bank account. \n\u2022 Buyers cover shipping costs. You get prepaid labels that make things simple. \n\nShop new-again finds \t\t\t\t\nFeel proud of your second-hand discoveries, from clothes to accessories. \n\u2022 Fast finds, long-lasting love. There\u2019s a Vinted category for almost everything, use filters to speed up shopping. \n\u2022 We\u2019ve got your back. When you buy on Vinted, we cover you with Buyer Protection. For a small fee, you\u2019ll get a refund if your item is lost, damaged in delivery, or significantly not as described. \n\u2022 Choose a shipping carrier and have your order sent to your home or a convenient pickup location.  \n\nThere\u2019s a diverse community of second-hand enthusiasts waiting to meet you. Chat with your fellow members, get updates, and manage your orders all in one place. \n\nCome join us\nTikTok: https://www.tiktok.com/@vinted \nInstagram: https://www.instagram.com/vinted\nFind out more in our Help Center: https://www.vinted.com/help"
+    },
+    "im:price": {
+     "label": "Get",
+     "attributes": {
+      "amount": "0.00",
+      "currency": "USD"
+     }
+    },
+    "im:contentType": {
+     "attributes": {
+      "term": "Application",
+      "label": "Application"
+     }
+    },
+    "rights": {
+     "label": "\u00a9 2024 Vinted"
+    },
+    "title": {
+     "label": "Vinted: Pre-loved marketplace - Vinted Limited"
+    },
+    "link": [
+     {
+      "attributes": {
+       "rel": "alternate",
+       "type": "text/html",
+       "href": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380?uo=2"
+      }
+     },
+     {
+      "im:duration": {
+       "label": "0"
+      },
+      "attributes": {
+       "title": "Preview",
+       "rel": "enclosure",
+       "type": "image/jpeg",
+       "href": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d0/9b/0a/d09b0ac1-acb5-7160-4973-dccea4f00186/App_store_-_UK_-_iPad-0.png-1.png/1024x1024bb.png",
+       "im:assetType": "preview"
+      }
+     }
+    ],
+    "id": {
+     "label": "https://apps.apple.com/us/app/vinted-pre-loved-marketplace/id632064380?uo=2",
+     "attributes": {
+      "im:id": "632064380",
+      "im:bundleId": "lt.manodrabuziai.fr"
+     }
+    },
+    "im:artist": {
+     "label": "Vinted Limited",
+     "attributes": {
+      "href": "https://apps.apple.com/us/developer/vinted-limited/id554164035?uo=2"
+     }
+    },
+    "category": {
+     "attributes": {
+      "im:id": "6024",
+      "term": "Shopping",
+      "scheme": "https://apps.apple.com/us/genre/ios-shopping/id6024?uo=2",
+      "label": "Shopping"
+     }
+    },
+    "im:releaseDate": {
+     "label": "2013-04-11T10:12:20-07:00",
+     "attributes": {
+      "label": "April 11, 2013"
+     }
+    }
+   }
+  ],
+  "updated": {
+   "label": "2026-11-13T06:22:37-07:00"
+  },
+  "rights": {
+   "label": "Copyright 2008 Apple Inc."
+  },
+  "title": {
+   "label": "iTunes Store: Top Free Apps"
+  },
+  "icon": {
+   "label": "http://itunes.apple.com/favicon.ico"
+  },
+  "link": [
+   {
+    "attributes": {
+     "rel": "alternate",
+     "type": "text/html",
+     "href": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?cc=us&id=1&popId=96"
+    }
+   },
+   {
+    "attributes": {
+     "rel": "self",
+     "href": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/json"
+    }
+   }
+  ],
+  "id": {
+   "label": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/json"
+  }
+ }
+}
