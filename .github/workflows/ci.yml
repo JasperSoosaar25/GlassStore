@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   test:
@@ -12,14 +13,71 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Select Xcode 26
-        run: sudo xcode-select -s /Applications/Xcode_26.app
+      - name: Show toolchain
+        run: |
+          xcodebuild -version
+          xcrun simctl list runtimes
+
+      - name: Pick the newest iPhone simulator
+        id: sim
+        run: |
+          SIM_ID="$(xcrun simctl list devices available --json | jq -r '
+            .devices | to_entries | sort_by(.key) | reverse
+            | .[0].value[]? | select(.name | contains("iPhone")) | .udid' | head -1)"
+          if [ -n "$SIM_ID" ]; then
+            echo "destination=platform=iOS Simulator,id=$SIM_ID" >> "$GITHUB_OUTPUT"
+          else
+            echo "destination=platform=iOS Simulator,name=iPhone 17" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Build and run unit tests
         run: |
           set -o pipefail
+          if command -v xcbeautify >/dev/null 2>&1; then PIPE=xcbeautify; else PIPE=cat; fi
           xcodebuild \
             -project GlassStore.xcodeproj \
             -scheme GlassStore \
-            -destination 'platform=iOS Simulator,name=iPhone 17' \
-            test | xcbeautify || xcodebuild -project GlassStore.xcodeproj -scheme GlassStore -destination 'platform=iOS Simulator,name=iPhone 17' test
+            -destination "${{ steps.sim.outputs.destination }}" \
+            test | $PIPE
+
+  ipa:
+    name: Unsigned IPA (sideload-ready)
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show toolchain
+        run: xcodebuild -version
+
+      - name: Build unsigned release app
+        run: |
+          set -o pipefail
+          if command -v xcbeautify >/dev/null 2>&1; then PIPE=xcbeautify; else PIPE=cat; fi
+          xcodebuild \
+            -project GlassStore.xcodeproj \
+            -scheme GlassStore \
+            -destination 'generic/platform=iOS' \
+            -configuration Release \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            build | $PIPE
+          APP="$(find "$HOME/Library/Developer/Xcode/DerivedData" \
+            -name 'GlassStore.app' -path '*iphoneos*' -print -quit)"
+          test -n "$APP" || { echo "::error::No GlassStore.app was produced"; exit 1; }
+
+      - name: Package Payload into IPA
+        run: |
+          APP="$(find "$HOME/Library/Developer/Xcode/DerivedData" \
+            -name 'GlassStore.app' -path '*iphoneos*' -print -quit)"
+          mkdir -p Payload
+          cp -R "$APP" Payload/
+          zip -qry GlassStore-unsigned.ipa Payload
+          ls -la GlassStore-unsigned.ipa
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: GlassStore-unsigned-ipa
+          path: GlassStore-unsigned.ipa
+          retention-days: 90
