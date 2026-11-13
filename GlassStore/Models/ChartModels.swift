@@ -36,14 +36,23 @@ struct LegacyChartFeed: Codable {
                     let imId: String?
                     let term: String?
                     let label: String?
-                }
+
+                    enum CodingKeys: String, CodingKey {
+                        case imId = "im:id"
+                        case term
+                        case label
+                    }
                 let attributes: Attributes?
             }
             struct Identifier: Codable {
                 struct Attributes: Codable {
                     let imId: String?
                     let imBundleId: String?
-                }
+
+                    enum CodingKeys: String, CodingKey {
+                        case imId = "im:id"
+                        case imBundleId = "im:bundleId"
+                    }
                 let label: String?
                 let attributes: Attributes?
             }
@@ -60,7 +69,13 @@ struct LegacyChartFeed: Codable {
                     let type: String?
                     let href: String?
                     let imAssetType: String?
-                }
+
+                    enum CodingKeys: String, CodingKey {
+                        case rel
+                        case type
+                        case href
+                        case imAssetType = "im:assetType"
+                    }
                 let attributes: Attributes?
             }
             struct ContentType: Codable {
