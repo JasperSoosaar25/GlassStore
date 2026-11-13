@@ -10,7 +10,7 @@ struct ChartsView: View {
     @State private var phase: Phase = .loading
     @State private var loadAttempt = 0
 
-    private enum Phase {
+    private enum Phase: Equatable {
         case loading
         case ready
         case failed(String)

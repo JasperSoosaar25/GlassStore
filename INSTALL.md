@@ -43,9 +43,11 @@ with your Apple ID, install. Refresh cadence follows your account type.
 
 ## 4. Sideloadly / ESign / i4Tools and friends
 
-Drag `GlassStore.ipa` (built via Xcode archive) into the tool, enter your
-Apple ID, install. Because there are no entitlements, "keep entitlements"
-settings are irrelevant — the result is the same for everyone.
+Drag `GlassStore.ipa` (built via Xcode archive, or the unsigned
+`GlassStore-unsigned-ipa` artifact from GitHub Actions — no Mac needed)
+into the tool, enter your Apple ID, install. Because there are no
+entitlements, "keep entitlements" settings are irrelevant — the result is
+the same for everyone.
 
 ## 5. Paid developer account ($99/yr)
 

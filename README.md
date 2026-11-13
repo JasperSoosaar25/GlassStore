@@ -70,6 +70,23 @@ See **[INSTALL.md](INSTALL.md)** — step-by-step for Xcode, AltStore,
 SideStore, Sideloadly and friends, plus the honest compatibility matrix
 (including the TrollStore reality).
 
+## No Mac? Build the IPA with GitHub Actions
+
+The repo's CI (`.github/workflows/ci.yml`) builds an **unsigned,
+sideload-ready IPA** on every push — no Mac required:
+
+1. Push (or web-upload) this repo to GitHub.
+2. Open the repo → **Actions** tab → wait for **CI** to finish (~10–15 min).
+3. Open the finished run → scroll to **Artifacts** → download
+   `GlassStore-unsigned-ipa` (it's a zip; the `.ipa` is inside).
+4. Sign it with your Apple ID using **Sideloadly** / **AltStore** /
+   **SideStore** — see INSTALL.md.
+
+> Artifacts are only downloadable while logged in to GitHub. For public
+> distribution, maintainers should attach the `.ipa` to a GitHub
+> **Release** — anyone can then download it without an account and sign
+> it with their own Apple ID.
+
 ## Project layout
 
 ```
