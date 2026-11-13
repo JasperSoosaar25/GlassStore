@@ -15,7 +15,7 @@ struct TodayView: View {
 
     @Namespace private var zoom
 
-    private enum Phase {
+    private enum Phase: Equatable {
         case loading
         case ready
         case failed(String)
@@ -126,7 +126,7 @@ struct TodayView: View {
 
     private static var dateLine: String {
         let now = Date.now
-        return now.formatted(.weekday(.wide)) + " · " + now.formatted(date: .abbreviated, time: .omitted)
+        return now.formatted(.dateTime.weekday(.wide)) + " · " + now.formatted(date: .abbreviated, time: .omitted)
     }
 
     // MARK: - Data
