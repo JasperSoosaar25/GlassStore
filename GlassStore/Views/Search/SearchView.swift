@@ -62,7 +62,7 @@ struct SearchView: View {
                 DetailView(item: item)
             }
             .searchable(text: $query, prompt: "Games, tools, developers…")
-            .searchToolbarBehavior(.minimized)
+            .searchToolbarBehavior(.minimize)
         }
         .task(id: "\(query)-\(searchTaskId)-\(regions.reloadToken)") {
             await runSearch()
