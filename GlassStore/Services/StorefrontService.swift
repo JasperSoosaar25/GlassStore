@@ -236,14 +236,7 @@ final class StorefrontService: StorefrontFetching {
         guard let raw = sorted.first?.label, let url = URL(string: raw) else { return nil }
         return upscaledIconURL(url)
     }
-
-    static func prettyDate(_ iso: String) -> String? {
-        let parser = ISO8601DateFormatter()
-        parser.formatOptions = [.withInternetDateTime]
-        guard let date = parser.date(from: iso) ?? ISO8601DateFormatter().date(from: iso) else { return nil }
-        return date.formatted(date: .abbreviated, time: .omitted)
-    }
-
+    
     // MARK: - Transport
 
     private func perform(_ url: URL) async throws -> (Data, URLResponse) {
