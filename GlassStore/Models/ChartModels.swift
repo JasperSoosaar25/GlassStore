@@ -42,6 +42,7 @@ struct LegacyChartFeed: Codable {
                         case term
                         case label
                     }
+                }
                 let attributes: Attributes?
             }
             struct Identifier: Codable {
@@ -53,6 +54,7 @@ struct LegacyChartFeed: Codable {
                         case imId = "im:id"
                         case imBundleId = "im:bundleId"
                     }
+                }
                 let label: String?
                 let attributes: Attributes?
             }
@@ -76,6 +78,7 @@ struct LegacyChartFeed: Codable {
                         case href
                         case imAssetType = "im:assetType"
                     }
+                }
                 let attributes: Attributes?
             }
             struct ContentType: Codable {
